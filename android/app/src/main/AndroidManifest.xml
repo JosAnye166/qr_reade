@@ -1,9 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.qr_reade">
+    package="com.joseSanchez.flutterscanerqr">
    <application
-        android:label="qr_reade"
+        android:label="Scaner QR"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
+
+         <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyDWPEmLE6zfQ-7VR1KQKchrrNxw--qve2o"/>
+               
         <activity
             android:name=".MainActivity"
             android:exported="true"

@@ -8,6 +8,6 @@ class DirrecionesPage  extends StatelessWidget {
 //f6r6r
    return ScanTiles(tipo: 'http');
   
-   
+   //
   }
 }

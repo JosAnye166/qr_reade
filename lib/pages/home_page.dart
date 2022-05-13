@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 
 import 'package:qr_reade/pages/direcciones_page.dart';
 import 'package:qr_reade/pages/mapas_page.dart';
-import 'package:qr_reade/providers/db_provider.dart';
 import 'package:qr_reade/providers/scan_list_provider.dart';
 
 import 'package:qr_reade/providers/ui_provider.dart';
